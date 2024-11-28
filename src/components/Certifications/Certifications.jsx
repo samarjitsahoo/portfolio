@@ -96,26 +96,26 @@ function Certifications() {
           data-aos-delay="200"
         >
           <CertificationItem
-            imageSrc="https://media.licdn.com/dms/image/v2/D561FAQHpYKJPN0IudA/feedshare-document-images_800/feedshare-document-images_800/1/1697363801497?e=1731542400&v=beta&t=n7EUhv0uPSw2EYklCNdgwrKQef6mphpkYM2R9tsFynI"
+            imageSrc="/certificates/google.jpg"
             title="Crash Course on Python"
             description="Authorized by Google"
-            lightboxLink="https://media.licdn.com/dms/image/v2/D561FAQHpYKJPN0IudA/feedshare-document-images_800/feedshare-document-images_800/1/1697363801497?e=1731542400&v=beta&t=n7EUhv0uPSw2EYklCNdgwrKQef6mphpkYM2R9tsFynI"
+            lightboxLink="/certificates/google.jpg"
             detailsLink="https://www.coursera.org/account/accomplishments/verify/PJE8PLWF3STL"
             ariaLabel="View details for Crash Course on Python certification"
           />
           <CertificationItem
-            imageSrc="https://media.licdn.com/dms/image/v2/D4D1FAQE3K-uTXqmjDw/feedshare-document-images_800/feedshare-document-images_800/1/1714481610248?e=1731542400&v=beta&t=jRDy80NUN97ahTXXpwzHM5OFMM68RHuBmOTVzLjyyhQ"
+            imageSrc="/certificates/ibm.jpg"
             title="Machine Learning with Python"
             description="Authorized by IBM"
-            lightboxLink="https://media.licdn.com/dms/image/v2/D4D1FAQE3K-uTXqmjDw/feedshare-document-images_800/feedshare-document-images_800/1/1714481610248?e=1731542400&v=beta&t=jRDy80NUN97ahTXXpwzHM5OFMM68RHuBmOTVzLjyyhQ"
+            lightboxLink="/certificates/ibm.jpg"
             detailsLink="https://www.coursera.org/account/accomplishments/verify/7DGGQEBMTJXC"
             ariaLabel="View details for Machine Learning with Python certification"
           />
           <CertificationItem
-            imageSrc="https://media.licdn.com/dms/image/v2/D561FAQEBPuRfY71_LA/feedshare-document-images_800/feedshare-document-images_800/1/1706174363953?e=1731542400&v=beta&t=HhRgd21rh_YnSdPjNiP5uwbwaLG19bulU8BAeaFkHUI"
+            imageSrc="/certificates/meta.jpg"
             title="The Full Stack"
             description="Authorized by Meta"
-            lightboxLink="https://media.licdn.com/dms/image/v2/D561FAQEBPuRfY71_LA/feedshare-document-images_800/feedshare-document-images_800/1/1706174363953?e=1731542400&v=beta&t=HhRgd21rh_YnSdPjNiP5uwbwaLG19bulU8BAeaFkHUI"
+            lightboxLink="/certificates/meta.jpg"
             detailsLink="https://www.coursera.org/account/accomplishments/verify/QRS8YH2ARCSN"
             ariaLabel="View details for Full Stack certification"
           />
