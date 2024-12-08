@@ -11,24 +11,24 @@ SwiperCore.use([Autoplay, Pagination]);
 const testimonialsData = [
   {
     quote:
-      "Samarjit\u2019s expertise and problem-solving skills were instrumental in our project’s success. His dedication and ability to quickly adapt to new challenges made working with him a seamless experience. Highly recommended for anyone seeking a committed and skilled developer.",
+      "Samarjit\u2019s expertise and problem-solving skills were instrumental in our project\u2019s success. His dedication and ability to quickly adapt to new challenges made working with him a seamless experience. Highly recommended for anyone seeking a committed and skilled developer.",
     image: "https://avatars.githubusercontent.com/u/129244274?v=4",
     name: "Soumya Khuntia",
     position: "Python Developer",
   },
   {
     quote:
-      "Samarjit\u2019s creativity and technical expertise significantly enhanced our project. His ability to tackle complex problems and deliver results on time was impressive. Working with him was a fantastic experience, and his contributions were invaluable.",
+      "Samarjit consistently delivered high-quality work and demonstrated exceptional technical skills throughout our collaboration. His proactive approach and attention to detail greatly contributed to the project\u2019s success. A true professional who is a pleasure to work with.",
     image: "https://avatars.githubusercontent.com/u/144861807?v=4",
     name: "Jagannath Ojha",
     position: "Web Developer",
   },
   {
     quote:
-      "Samarjit consistently delivered high-quality work and demonstrated exceptional technical skills throughout our collaboration. His proactive approach and attention to detail greatly contributed to the project’s success. A true professional who is a pleasure to work with.",
-    image: "https://avatars.githubusercontent.com/u/181587082?v=4",
-    name: "Soumya Das",
-    position: "Python Developer",
+      "Samarjit\u2019s dedication and technical proficiency were evident from the start. His clear communication and ability to deliver high-quality work under tight deadlines were outstanding. He\u2019s a reliable and skilled developer who truly excels in his field.",
+    image: "https://avatars.githubusercontent.com/u/111912787?v=4",
+    name: "Soumya Satapathy",
+    position: "UI/UX Designer",
   },
   {
     quote:
@@ -39,10 +39,10 @@ const testimonialsData = [
   },
   {
     quote:
-      "Samarjit\u2019s dedication and technical proficiency were evident from the start. His clear communication and ability to deliver high-quality work under tight deadlines were outstanding. He’s a reliable and skilled developer who truly excels in his field.",
-    image: "https://avatars.githubusercontent.com/u/111912787?v=4",
-    name: "Soumya Satapathy",
-    position: "UI/UX Designer",
+      "Samarjit\u2019s creativity and technical expertise significantly enhanced our project. His ability to tackle complex problems and deliver results on time was impressive. Working with him was a fantastic experience, and his contributions were invaluable.",
+    image: "https://avatars.githubusercontent.com/u/74724579?v=4",
+    name: "Shaikh Yakub",
+    position: "MERN Developer",
   },
 ];
 

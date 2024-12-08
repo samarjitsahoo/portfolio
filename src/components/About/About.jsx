@@ -17,7 +17,7 @@ const About = () => (
       <div className="row gy-4 justify-content-center">
         <div className="col-lg-4 text-center">
           <img
-            src="https://avatars.githubusercontent.com/u/145245473?v=4"
+            src="/me.jpg"
             className="img-fluid"
             style={{
               maxWidth: "80%",

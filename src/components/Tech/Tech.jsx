@@ -61,16 +61,6 @@ const Tech = () => {
       },
       {
         id: "tech12",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg",
-        alt: "Flask",
-      },
-      {
-        id: "tech13",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg",
-        alt: "MySQL",
-      },
-      {
-        id: "tech14",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
         alt: "MongoDB",
       },
