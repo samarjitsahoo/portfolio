@@ -53,7 +53,7 @@ const Contact = () => {
                 <i className="bi bi-globe flex-shrink-0"></i>
                 <div>
                   <h3>Website</h3>
-                  <p>www.samarjit.me</p>
+                  <p>https://samarjit.vercel.app</p>
                 </div>
               </div>
               <div

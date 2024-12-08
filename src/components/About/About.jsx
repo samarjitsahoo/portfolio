@@ -40,7 +40,7 @@ const About = () => (
             {[
               { label: "Degree", value: "Bachelor of Technology" },
               { label: "Email", value: "samarjit9203@gmail.com" },
-              { label: "Website", value: "www.samarjit.me" },
+              { label: "Website", value: "https://samarjit.vercel.app" },
               { label: "Address", value: "Cuttack, Odisha, India" },
             ].map((item, index) => (
               <div className="col-lg-6" key={index}>
