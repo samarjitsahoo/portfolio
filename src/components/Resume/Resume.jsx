@@ -4,7 +4,7 @@ import "./Resume.scss";
 const Resume = () => {
   const contactInfo = [
     "samarjit9203@gmail.com",
-    "www.samarjit.me",
+    "https://samarjit.vercel.app",
     "linkedin.com/in/samarjitsahoo",
     "github.com/samarjitsahoo",
   ];
