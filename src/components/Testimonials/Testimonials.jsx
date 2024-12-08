@@ -40,9 +40,9 @@ const testimonialsData = [
   {
     quote:
       "Samarjit\u2019s creativity and technical expertise significantly enhanced our project. His ability to tackle complex problems and deliver results on time was impressive. Working with him was a fantastic experience, and his contributions were invaluable.",
-    image: "https://avatars.githubusercontent.com/u/74724579?v=4",
-    name: "Shaikh Yakub",
-    position: "MERN Developer",
+    image: "https://avatars.githubusercontent.com/u/179226225?v=4",
+    name: "Shaik Ahesanuddin",
+    position: "C++ Developer",
   },
 ];
 
