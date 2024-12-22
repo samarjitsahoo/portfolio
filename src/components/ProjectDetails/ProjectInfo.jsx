@@ -39,7 +39,7 @@ const projectInfoData = [
   {
     name: "ChatGPT Clone",
     category: "API Project",
-    url: "https://samargpt.vercel.app",
+    url: "https://samargpt.netlify.app",
   },
   {
     name: "Google Maps Clone",
