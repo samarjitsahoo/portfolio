@@ -157,7 +157,7 @@ const Portfolio = () => {
                   alt="AI/ML 1"
                 />
                 <div className="portfolio-info">
-                  <h4>House Price Predictor</h4>
+                  <h4>House Price Prediction</h4>
                   <p>House Price Prediction using Random Forest Regressor</p>
                   <a
                     href="https://raw.githubusercontent.com/samarjitsahoo/house-price-prediction/main/assets/hpp-1.png"

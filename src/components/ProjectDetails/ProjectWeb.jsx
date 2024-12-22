@@ -62,6 +62,16 @@ const ProjectWeb = () => {
                 </div>
                 <div className="col-lg-4">
                   <div
+                    className="portfolio-description"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <h2>{webProjectDescriptions[index].title}</h2>
+                    <p className="justify">
+                      {webProjectDescriptions[index].description}
+                    </p>
+                  </div>
+                  <div
                     className="portfolio-info"
                     data-aos="fade-up"
                     data-aos-delay="200"
@@ -85,16 +95,6 @@ const ProjectWeb = () => {
                         </a>
                       </li>
                     </ul>
-                  </div>
-                  <div
-                    className="portfolio-description"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                  >
-                    <h2>{webProjectDescriptions[index].title}</h2>
-                    <p className="justify">
-                      {webProjectDescriptions[index].description}
-                    </p>
                   </div>
                 </div>
               </div>
