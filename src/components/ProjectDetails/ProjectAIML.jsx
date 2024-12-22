@@ -62,31 +62,6 @@ const ProjectAIML = () => {
                 </div>
                 <div className="col-lg-4">
                   <div
-                    className="portfolio-info"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <h3>Project information</h3>
-                    <ul>
-                      <li>
-                        <strong>Project Name</strong>: {project.name}
-                      </li>
-                      <li>
-                        <strong>Project Category</strong>: {project.category}
-                      </li>
-                      <li>
-                        <strong>Project URL</strong>:
-                        <a
-                          href={project.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {project.url}
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div
                     className="portfolio-description"
                     data-aos="fade-up"
                     data-aos-delay="300"
@@ -95,6 +70,31 @@ const ProjectAIML = () => {
                     <p className="justify">
                       {aimlProjectDescriptions[index].description}
                     </p>
+                  </div>
+                  <div
+                    className="portfolio-info"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <h3>Project information</h3>
+                    <ul>
+                      <li>
+                        <strong>Name</strong>: {project.name}
+                      </li>
+                      <li>
+                        <strong>Category</strong>: {project.category}
+                      </li>
+                      <li>
+                        <strong>Website URL</strong>:&nbsp;
+                        <a
+                          href={project.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Click here
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>

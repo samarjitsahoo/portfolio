@@ -69,19 +69,19 @@ const PortfolioAPI = () => {
                     <h3>Project information</h3>
                     <ul>
                       <li>
-                        <strong>Project Name</strong>: {project.name}
+                        <strong>Name</strong>: {project.name}
                       </li>
                       <li>
-                        <strong>Project Category</strong>: {project.category}
+                        <strong>Category</strong>: {project.category}
                       </li>
                       <li>
-                        <strong>Project URL</strong>:
+                        <strong>Website URL</strong>:&nbsp;
                         <a
                           href={project.url}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          {project.url}
+                          Click here
                         </a>
                       </li>
                     </ul>

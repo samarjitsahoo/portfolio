@@ -4,32 +4,32 @@ const projectInfoData = [
   {
     name: "Real Estate Application",
     category: "Website Project",
-    url: "https://samartube.vercel.app",
+    url: "",
   },
   {
     name: "Blog Website",
     category: "Website Project",
-    url: "https://samartube.vercel.app",
+    url: "",
   },
   {
     name: "Auction Platform",
     category: "Website Project",
-    url: "https://samartube.vercel.app",
+    url: "",
   },
   {
     name: "House Price Prediction",
     category: "AI/ML Project",
-    url: "https://samartube.vercel.app",
+    url: "https://samarhouseprice.streamlit.app",
   },
   {
     name: "Demo Project",
     category: "AI/ML Project",
-    url: "https://samartube.vercel.app",
+    url: "",
   },
   {
     name: "Demo Project",
     category: "AI/ML Project",
-    url: "https://samartube.vercel.app",
+    url: "",
   },
   {
     name: "Youtube Clone",
@@ -39,27 +39,27 @@ const projectInfoData = [
   {
     name: "ChatGPT Clone",
     category: "API Project",
-    url: "https://samartube.vercel.app",
+    url: "https://samargpt.vercel.app",
   },
   {
     name: "Google Maps Clone",
     category: "API Project",
-    url: "https://samartube.vercel.app",
+    url: "",
   },
   {
     name: "Employee Managaement System",
     category: "Other Project",
-    url: "https://samartube.vercel.app",
+    url: "",
   },
   {
     name: "Demo Project",
     category: "Other Project",
-    url: "https://samartube.vercel.app",
+    url: "",
   },
   {
     name: "Demo Project",
     category: "Other Project",
-    url: "https://samartube.vercel.app",
+    url: "",
   },
 ];
 
@@ -82,7 +82,7 @@ const projectDescriptions = [
   {
     title: "House Price Prediction",
     description:
-      "lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repellat id optio!",
+      "Explore my Machine Learning repository featuring a House Price Predictor project. Leveraging advanced algorithms, this project predicts house prices based on various features like location, size, amenities, and market trends. Dive into the world of predictive analytics and gain insights into the dynamic real estate market.",
   },
   {
     title: "Demo Project",
@@ -97,12 +97,12 @@ const projectDescriptions = [
   {
     title: "Youtube Clone",
     description:
-      "lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repellat id optio!",
+      "The YouTube Clone project replicates the essential features of YouTube using the YouTube API, providing users with a seamless experience for discovering and viewing videos. This project serves as a hands-on example of how to integrate API functionalities into a web application, enabling features such as search, video playback, and user interaction.",
   },
   {
     title: "ChatGPT Clone",
     description:
-      "lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repellat id optio!",
+      "xplore my ChatGPT Clone project, which harnesses the power of the Gemini AI API to recreate the core functionalities of an AI-based conversational assistant. This project offers a smooth and interactive interface for real-time conversations, delivering an intuitive and responsive experience. Dive into the world of conversational AI like ChatGPT.",
   },
   {
     title: "Google Maps Clone",

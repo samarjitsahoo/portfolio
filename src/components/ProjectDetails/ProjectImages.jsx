@@ -20,10 +20,22 @@ export const imagesGroup3 = [
 ];
 
 export const imagesGroup4 = [
-  { src: "/demo.jpg", alt: "Image 9" },
-  { src: "/demo.jpg", alt: "Image 10" },
-  { src: "/demo.jpg", alt: "Image 11" },
-  { src: "/demo.jpg", alt: "Image 12" },
+  {
+    src: "https://raw.githubusercontent.com/samarjitsahoo/house-price-prediction/main/assets/hpp-1.png",
+    alt: "Image 9",
+  },
+  {
+    src: "https://raw.githubusercontent.com/samarjitsahoo/house-price-prediction/main/assets/hpp-2.png",
+    alt: "Image 10",
+  },
+  {
+    src: "https://raw.githubusercontent.com/samarjitsahoo/house-price-prediction/main/assets/hpp-3.png",
+    alt: "Image 11",
+  },
+  {
+    src: "https://raw.githubusercontent.com/samarjitsahoo/house-price-prediction/main/assets/hpp-4.png",
+    alt: "Image 12",
+  },
 ];
 
 export const imagesGroup5 = [

@@ -151,12 +151,16 @@ const Portfolio = () => {
             </div>
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-aiml">
               <div className="portfolio-content h-100">
-                <img src="/demo.jpg" className="img-fluid" alt="AI/ML 1" />
+                <img
+                  src="https://raw.githubusercontent.com/samarjitsahoo/house-price-prediction/main/assets/hpp-1.png"
+                  className="img-fluid"
+                  alt="AI/ML 1"
+                />
                 <div className="portfolio-info">
-                  <h4>AI/ML 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>House Price Predictor</h4>
+                  <p>House Price Prediction using Random Forest Regressor</p>
                   <a
-                    href="/demo.jpg"
+                    href="https://raw.githubusercontent.com/samarjitsahoo/house-price-prediction/main/assets/hpp-1.png"
                     title="AI/ML 1"
                     data-gallery="portfolio-gallery-product"
                     className="glightbox preview-link"
@@ -229,8 +233,8 @@ const Portfolio = () => {
                   alt="API 1"
                 />
                 <div className="portfolio-info">
-                  <h4>API 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>YouTube Clone</h4>
+                  <p>YouTube Clone using YouTube data API v3</p>
                   <a
                     href="https://raw.githubusercontent.com/samarjitsahoo/youtube-clone/main/assets/home.jpg"
                     title="API 1"
@@ -257,8 +261,8 @@ const Portfolio = () => {
                   alt="API 2"
                 />
                 <div className="portfolio-info">
-                  <h4>API 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>ChatGPT Clone</h4>
+                  <p>ChatGPT Clone using Gemini 1.5 Pro</p>
                   <a
                     href="https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/home.png"
                     title="API 2"
@@ -279,11 +283,7 @@ const Portfolio = () => {
             </div>
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-api">
               <div className="portfolio-content h-100">
-                <img
-                  src="/demo.jpg"
-                  className="img-fluid"
-                  alt="API 3"
-                />
+                <img src="/demo.jpg" className="img-fluid" alt="API 3" />
                 <div className="portfolio-info">
                   <h4>API 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
