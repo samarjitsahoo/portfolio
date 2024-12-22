@@ -60,19 +60,19 @@ export const imagesGroup7 = [
 ];
 export const imagesGroup8 = [
   {
-    src: "https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/home.jpg",
+    src: "https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/home.png",
     alt: "SamarGPT Home",
   },
   {
-    src: "https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/hi.jpg",
+    src: "https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/hi.png",
     alt: "SamarGPT Hi",
   },
   {
-    src: "https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/program.jpg",
+    src: "https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/prog.png",
     alt: "SamarGPT Program",
   },
   {
-    src: "https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/para.jpg",
+    src: "https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/para.png",
     alt: "SamarGPT Paragraph",
   },
 ];

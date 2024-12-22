@@ -252,7 +252,7 @@ const Portfolio = () => {
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-api">
               <div className="portfolio-content h-100">
                 <img
-                  src="https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/home.jpg"
+                  src="https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/home.png"
                   className="img-fluid"
                   alt="API 2"
                 />
@@ -260,7 +260,7 @@ const Portfolio = () => {
                   <h4>API 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a
-                    href="https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/home.jpg"
+                    href="https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/home.png"
                     title="API 2"
                     data-gallery="portfolio-gallery-branding"
                     className="glightbox preview-link"
