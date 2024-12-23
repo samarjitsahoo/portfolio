@@ -109,8 +109,8 @@ const Portfolio = () => {
               <div className="portfolio-content h-100">
                 <img src="/demo.jpg" className="img-fluid" alt="Web 2" />
                 <div className="portfolio-info">
-                  <h4>Website 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>Job Portal</h4>
+                  <p>Full stack Job portal using MERN</p>
                   <a
                     href="/demo.jpg"
                     title="Web 2"
