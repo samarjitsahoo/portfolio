@@ -44,7 +44,7 @@ const projectInfoData = [
   {
     name: "Crypto Tracker",
     category: "API Project",
-    url: "",
+    url: "https://samarcrypto.vercel.app",
   },
   {
     name: "Employee Managaement System",
