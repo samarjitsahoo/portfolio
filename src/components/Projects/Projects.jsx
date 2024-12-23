@@ -287,12 +287,16 @@ const Portfolio = () => {
             </div>
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-api">
               <div className="portfolio-content h-100">
-                <img src="/demo.jpg" className="img-fluid" alt="API 3" />
+                <img
+                  src="https://raw.githubusercontent.com/samarjitsahoo/crypto-tracker/main/assets/home.png"
+                  className="img-fluid"
+                  alt="API 3"
+                />
                 <div className="portfolio-info">
-                  <h4>API 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>Crypto Tracker</h4>
+                  <p>Cryptocurrency tracker using CoinGecko API</p>
                   <a
-                    href="/demo.jpg"
+                    href="https://raw.githubusercontent.com/samarjitsahoo/crypto-tracker/main/assets/home.png"
                     title="API 3"
                     data-gallery="portfolio-gallery-branding"
                     className="glightbox preview-link"

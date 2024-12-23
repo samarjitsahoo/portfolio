@@ -42,7 +42,7 @@ const projectInfoData = [
     url: "https://samargpt.netlify.app",
   },
   {
-    name: "Google Maps Clone",
+    name: "Crypto Tracker",
     category: "API Project",
     url: "",
   },
@@ -102,12 +102,12 @@ const projectDescriptions = [
   {
     title: "ChatGPT Clone",
     description:
-      "xplore my ChatGPT Clone project, which harnesses the power of the Gemini AI API to recreate the core functionalities of an AI-based conversational assistant. This project offers a smooth and interactive interface for real-time conversations, delivering an intuitive and responsive experience. Dive into the world of conversational AI like ChatGPT.",
+      "Explore my ChatGPT Clone project, which harnesses the power of the Gemini AI API to recreate the core functionalities of an AI-based conversational assistant. This project offers a smooth and interactive interface for real-time conversations, delivering an intuitive and responsive experience. Dive into the world of conversational AI like ChatGPT.",
   },
   {
-    title: "Google Maps Clone",
+    title: "Crypto Tracker",
     description:
-      "lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repellat id optio!",
+      "A cryptocurrency tracking platform built with React and Tailwind CSS, leveraging the CoinGecko API to provide real-time data on prices, market trends, and historical statistics. The platform offers an intuitive interface for users to monitor and analyze cryptocurrency market movements effectively.",
   },
   {
     title: "Employee Managaement System",

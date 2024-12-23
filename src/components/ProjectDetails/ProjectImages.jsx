@@ -102,10 +102,22 @@ export const imagesGroup8 = [
 ];
 
 export const imagesGroup9 = [
-  { src: "/demo.jpg", alt: "Image 9" },
-  { src: "/demo.jpg", alt: "Image 10" },
-  { src: "/demo.jpg", alt: "Image 11" },
-  { src: "/demo.jpg", alt: "Image 12" },
+  {
+    src: "https://raw.githubusercontent.com/samarjitsahoo/crypto-tracker/main/assets/home.png",
+    alt: "Image 9",
+  },
+  {
+    src: "https://raw.githubusercontent.com/samarjitsahoo/crypto-tracker/main/assets/search.png",
+    alt: "Image 10",
+  },
+  {
+    src: "https://raw.githubusercontent.com/samarjitsahoo/crypto-tracker/main/assets/trending.png",
+    alt: "Image 11",
+  },
+  {
+    src: "https://raw.githubusercontent.com/samarjitsahoo/crypto-tracker/main/assets/saved.png",
+    alt: "Image 12",
+  },
 ];
 
 export const imagesGroup10 = [
