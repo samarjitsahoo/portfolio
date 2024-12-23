@@ -2,17 +2,17 @@ import React from "react";
 
 const projectInfoData = [
   {
-    name: "Real Estate Application",
+    name: "Auction Platform",
+    category: "Website Project",
+    url: "https://samarbid.netlify.app",
+  },
+  {
+    name: "Job Portal",
     category: "Website Project",
     url: "",
   },
   {
     name: "Blog Website",
-    category: "Website Project",
-    url: "",
-  },
-  {
-    name: "Auction Platform",
     category: "Website Project",
     url: "",
   },
@@ -65,17 +65,17 @@ const projectInfoData = [
 
 const projectDescriptions = [
   {
-    title: "Real Estate Application",
+    title: "Auction Platfrom",
+    description:
+      "A full-stack online auction platform enabling seamless user interactions for creating, managing, and participating in auctions. This repository combines the frontend and backend, offering an integrated solution for user-friendly interfaces and scalable backend services. The platform is designed to deliver a smooth and engaging auction experience!",
+  },
+  {
+    title: "Job Portal",
     description:
       "lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repellat id optio!",
   },
   {
     title: "Blog Website",
-    description:
-      "lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repellat id optio!",
-  },
-  {
-    title: "Auction Platform",
     description:
       "lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repellat id optio!",
   },

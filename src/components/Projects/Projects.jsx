@@ -79,12 +79,16 @@ const Portfolio = () => {
           >
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <div className="portfolio-content h-100">
-                <img src="/demo.jpg" className="img-fluid" alt="Web 1" />
+                <img
+                  src="https://raw.githubusercontent.com/samarjitsahoo/auction-platform/main/assets/home.png"
+                  className="img-fluid"
+                  alt="Web 1"
+                />
                 <div className="portfolio-info">
-                  <h4>Website 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>Auction Platform</h4>
+                  <p>Full stack auction platform using MERN</p>
                   <a
-                    href="/demo.jpg"
+                    href="https://raw.githubusercontent.com/samarjitsahoo/auction-platform/main/assets/home.png"
                     title="Web 1"
                     data-gallery="portfolio-gallery-app"
                     className="glightbox preview-link"

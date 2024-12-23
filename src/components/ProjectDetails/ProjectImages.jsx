@@ -1,8 +1,20 @@
 export const imagesGroup1 = [
-  { src: "/demo.jpg", alt: "Image 9" },
-  { src: "/demo.jpg", alt: "Image 10" },
-  { src: "/demo.jpg", alt: "Image 11" },
-  { src: "/demo.jpg", alt: "Image 12" },
+  {
+    src: "https://raw.githubusercontent.com/samarjitsahoo/auction-platform/main/assets/home.png",
+    alt: "Image 9",
+  },
+  {
+    src: "https://raw.githubusercontent.com/samarjitsahoo/auction-platform/main/assets/auction.png",
+    alt: "Image 10",
+  },
+  {
+    src: "https://raw.githubusercontent.com/samarjitsahoo/auction-platform/main/assets/bidders.png",
+    alt: "Image 11",
+  },
+  {
+    src: "https://raw.githubusercontent.com/samarjitsahoo/auction-platform/main/assets/profile.png",
+    alt: "Image 12",
+  },
 ];
 
 export const imagesGroup2 = [
