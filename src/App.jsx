@@ -44,10 +44,10 @@ function App() {
                 </>
               }
             />
+            <Route path="/projects/trend" element={<ProjectOther />} />
             <Route path="/projects/web" element={<ProjectWeb />} />
             <Route path="/projects/aiml" element={<ProjectAIML />} />
             <Route path="/projects/api" element={<ProjectAPI />} />
-            <Route path="/projects/other" element={<ProjectOther />} />
           </Routes>
         </main>
         <Footer />
