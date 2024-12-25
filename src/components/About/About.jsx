@@ -17,7 +17,7 @@ const About = () => (
       <div className="row gy-4 justify-content-center">
         <div className="col-lg-4 text-center">
           <img
-            src="/me.jpg"
+            src="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121310/me_ebrfho.jpg"
             className="img-fluid"
             style={{
               maxWidth: "80%",

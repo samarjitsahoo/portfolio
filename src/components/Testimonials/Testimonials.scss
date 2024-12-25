@@ -1,114 +1,113 @@
 .testimonials .testimonials-carousel,
 .testimonials {
+  .testimonials-carousel,
+  .testimonials-slider {
+    overflow: hidden;
+  }
 
-    .testimonials-carousel,
-    .testimonials-slider {
-        overflow: hidden;
+  .testimonial-item {
+    box-sizing: content-box;
+    text-align: center;
+    min-height: 320px;
+
+    .testimonial-img {
+      width: 90px;
+      border-radius: 50%;
+      margin: 0 auto;
     }
 
-    .testimonial-item {
-        box-sizing: content-box;
-        text-align: center;
-        min-height: 320px;
-
-        .testimonial-img {
-            width: 90px;
-            border-radius: 50%;
-            margin: 0 auto;
-        }
-
-        h3 {
-            font-size: 18px;
-            font-weight: bold;
-            margin: 10px 0 5px 0;
-        }
-
-        h4 {
-            font-size: 14px;
-            color: color-mix(in srgb, var(--default-color), transparent 20%);
-            margin: 0;
-        }
-
-        .quote-icon-left,
-        .quote-icon-right {
-            color: color-mix(in srgb, var(--accent-color), transparent 40%);
-            font-size: 26px;
-            line-height: 0;
-        }
-
-        .quote-icon-left {
-            display: inline-block;
-            left: -5px;
-            position: relative;
-        }
-
-        .quote-icon-right {
-            display: inline-block;
-            right: -5px;
-            position: relative;
-            top: 10px;
-            transform: scale(-1, -1);
-        }
-
-        p {
-            font-style: italic;
-            margin: 0 15px 15px 15px;
-            padding: 20px;
-            background-color: var(--surface-color);
-            position: relative;
-            margin-bottom: 35px;
-            border-radius: 6px;
-            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-
-            &::after {
-                content: "";
-                width: 0;
-                height: 0;
-                border-top: 20px solid var(--surface-color);
-                border-right: 20px solid transparent;
-                border-left: 20px solid transparent;
-                position: absolute;
-                bottom: -20px;
-                left: calc(50% - 20px);
-            }
-        }
+    h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0 5px 0;
     }
 
-    .swiper-wrapper {
-        height: auto;
+    h4 {
+      font-size: 14px;
+      color: color-mix(in srgb, var(--default-color), transparent 20%);
+      margin: 0;
     }
 
-    .swiper-pagination {
-        margin-top: 40px;
-        position: relative;
-
-        .swiper-pagination-bullet {
-            width: 12px;
-            height: 12px;
-            background-color: var(--background-color);
-            opacity: 1;
-            border: 1px solid var(--accent-color);
-
-            &.swiper-pagination-bullet-active {
-                background-color: var(--accent-color);
-            }
-        }
+    .quote-icon-left,
+    .quote-icon-right {
+      color: color-mix(in srgb, var(--accent-color), transparent 40%);
+      font-size: 26px;
+      line-height: 0;
     }
+
+    .quote-icon-left {
+      display: inline-block;
+      left: -5px;
+      position: relative;
+    }
+
+    .quote-icon-right {
+      display: inline-block;
+      right: -5px;
+      position: relative;
+      top: 10px;
+      transform: scale(-1, -1);
+    }
+
+    p {
+      font-style: italic;
+      margin: 0 15px 15px 15px;
+      padding: 20px;
+      background-color: var(--surface-color);
+      position: relative;
+      margin-bottom: 35px;
+      border-radius: 6px;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+
+      &::after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: 20px solid var(--surface-color);
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
+        position: absolute;
+        bottom: -20px;
+        left: calc(50% - 20px);
+      }
+    }
+  }
+
+  .swiper-wrapper {
+    height: auto;
+  }
+
+  .swiper-pagination {
+    margin-top: 40px;
+    position: relative;
+
+    .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: var(--background-color);
+      opacity: 1;
+      border: 1px solid var(--accent-color);
+
+      &.swiper-pagination-bullet-active {
+        background-color: var(--accent-color);
+      }
+    }
+  }
 }
 
 [data-theme="dark"] {
-    .light-background h2 {
-        color: #e0e0e0;
-    }
+  .light-background h2 {
+    color: #e0e0e0;
+  }
 
-    .testimonial-item {
-        p {
-            background-color: #333;
-            color: #e0e0e0;
+  .testimonial-item {
+    p {
+      background-color: #333;
+      color: #e0e0e0;
 
-            &::after {
-                display: none;
-            }
-        }
+      &::after {
+        display: none;
+      }
     }
+  }
 }

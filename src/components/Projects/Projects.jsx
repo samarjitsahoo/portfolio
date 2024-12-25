@@ -56,22 +56,9 @@ const Portfolio = () => {
       <div className="container">
         <div
           className="isotope-layout"
-          data-default-filter=".filter-web"
           data-layout="masonry"
           data-sort="original-order"
         >
-          <ul
-            className="portfolio-filters isotope-filters"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <li data-filter=".filter-web" className="filter-active">
-              Trend
-            </li>
-            <li data-filter=".filter-aiml">Web</li>
-            <li data-filter=".filter-api">AI/ML</li>
-            <li data-filter=".filter-other">API</li>
-          </ul>
           <div
             className="row gy-4 isotope-container"
             data-aos="fade-up"
@@ -79,20 +66,24 @@ const Portfolio = () => {
           >
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <div className="portfolio-content h-100">
-                <img src="/demo.jpg" className="img-fluid" alt="Trend 1" />
+                <img
+                  src="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121481/demo_xhn7qz.jpg"
+                  className="img-fluid"
+                  alt="Project 1"
+                />
                 <div className="portfolio-info">
-                  <h4>Trend 1</h4>
+                  <h4>Project 1</h4>
                   <p>Lorem ipsum dolor sit amet.</p>
                   <a
-                    href="/demo.jpg"
-                    title="Trend 1"
+                    href="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121481/demo_xhn7qz.jpg"
+                    title="Project 1"
                     data-gallery="portfolio-gallery-app"
                     className="glightbox preview-link"
                   >
                     <i className="bi bi-zoom-in"></i>
                   </a>
                   <Link
-                    to="/projects/trend"
+                    to="/projects"
                     title="More Details"
                     className="details-link"
                   >
@@ -103,20 +94,24 @@ const Portfolio = () => {
             </div>
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <div className="portfolio-content h-100">
-                <img src="/demo.jpg" className="img-fluid" alt="Trend 2" />
+                <img
+                  src="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121481/demo_xhn7qz.jpg"
+                  className="img-fluid"
+                  alt="Project 2"
+                />
                 <div className="portfolio-info">
-                  <h4>Trend 2</h4>
+                  <h4>Project 2</h4>
                   <p>Lorem ipsum dolor sit amet.</p>
                   <a
-                    href="/demo.jpg"
-                    title="Trend 2"
+                    href="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121481/demo_xhn7qz.jpg"
+                    title="Project 2"
                     data-gallery="portfolio-gallery-app"
                     className="glightbox preview-link"
                   >
                     <i className="bi bi-zoom-in"></i>
                   </a>
                   <Link
-                    to="/projects/trend"
+                    to="/projects"
                     title="More Details"
                     className="details-link"
                   >
@@ -127,256 +122,24 @@ const Portfolio = () => {
             </div>
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <div className="portfolio-content h-100">
-                <img src="/demo.jpg" className="img-fluid" alt="Trend 3" />
+                <img
+                  src="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121481/demo_xhn7qz.jpg"
+                  className="img-fluid"
+                  alt="Project 3"
+                />
                 <div className="portfolio-info">
-                  <h4>Trend 3</h4>
+                  <h4>Project 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a
-                    href="/demo.jpg"
-                    title="Trend 3"
+                    href="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121481/demo_xhn7qz.jpg"
+                    title="Project 3"
                     data-gallery="portfolio-gallery-app"
                     className="glightbox preview-link"
                   >
                     <i className="bi bi-zoom-in"></i>
                   </a>
                   <Link
-                    to="/projects/trend"
-                    title="More Details"
-                    className="details-link"
-                  >
-                    <i className="bi bi-link-45deg"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-aiml">
-              <div className="portfolio-content h-100">
-                <img
-                  src="https://raw.githubusercontent.com/samarjitsahoo/auction-platform/main/assets/home.png"
-                  className="img-fluid"
-                  alt="Auction Platform"
-                />
-                <div className="portfolio-info">
-                  <h4>Auction Platform</h4>
-                  <p>Full Stack Auction Platfrom using MERN.</p>
-                  <a
-                    href="https://raw.githubusercontent.com/samarjitsahoo/auction-platform/main/assets/home.png"
-                    title="Auction Platform"
-                    data-gallery="portfolio-gallery-product"
-                    className="glightbox preview-link"
-                  >
-                    <i className="bi bi-zoom-in"></i>
-                  </a>
-                  <Link
-                    to="/projects/web"
-                    title="More Details"
-                    className="details-link"
-                  >
-                    <i className="bi bi-link-45deg"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-aiml">
-              <div className="portfolio-content h-100">
-                <img src="/demo.jpg" className="img-fluid" alt="AI/ML 2" />
-                <div className="portfolio-info">
-                  <h4>Web 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="/demo.jpg"
-                    title="Web 2"
-                    data-gallery="portfolio-gallery-product"
-                    className="glightbox preview-link"
-                  >
-                    <i className="bi bi-zoom-in"></i>
-                  </a>
-                  <Link
-                    to="/projects/web"
-                    title="More Details"
-                    className="details-link"
-                  >
-                    <i className="bi bi-link-45deg"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-aiml">
-              <div className="portfolio-content h-100">
-                <img src="/demo.jpg" className="img-fluid" alt="AI/ML 3" />
-                <div className="portfolio-info">
-                  <h4>Web 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="/demo.jpg"
-                    title="Web 3"
-                    data-gallery="portfolio-gallery-product"
-                    className="glightbox preview-link"
-                  >
-                    <i className="bi bi-zoom-in"></i>
-                  </a>
-                  <Link
-                    to="/projects/web"
-                    title="More Details"
-                    className="details-link"
-                  >
-                    <i className="bi bi-link-45deg"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-api">
-              <div className="portfolio-content h-100">
-                <img
-                  src="https://raw.githubusercontent.com/samarjitsahoo/house-price-prediction/main/assets/hpp-1.png"
-                  className="img-fluid"
-                  alt="House Price Prediction"
-                />
-                <div className="portfolio-info">
-                  <h4>House Price Prediction</h4>
-                  <p>House Price Prediction using Random Forest Regressor</p>
-                  <a
-                    href="https://raw.githubusercontent.com/samarjitsahoo/house-price-prediction/main/assets/hpp-1.png"
-                    title="House Price Prediction"
-                    data-gallery="portfolio-gallery-branding"
-                    className="glightbox preview-link"
-                  >
-                    <i className="bi bi-zoom-in"></i>
-                  </a>
-                  <Link
-                    to="/projects/aiml"
-                    title="More Details"
-                    className="details-link"
-                  >
-                    <i className="bi bi-link-45deg"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-api">
-              <div className="portfolio-content h-100">
-                <img src="/demo.jpg" className="img-fluid" alt="AIML 2" />
-                <div className="portfolio-info">
-                  <h4>AIML 2</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                  <a
-                    href="/demo.jpg"
-                    title="AIML 2"
-                    data-gallery="portfolio-gallery-branding"
-                    className="glightbox preview-link"
-                  >
-                    <i className="bi bi-zoom-in"></i>
-                  </a>
-                  <Link
-                    to="/projects/aiml"
-                    title="More Details"
-                    className="details-link"
-                  >
-                    <i className="bi bi-link-45deg"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-api">
-              <div className="portfolio-content h-100">
-                <img src="/demo.jpg" className="img-fluid" alt="AIML 3" />
-                <div className="portfolio-info">
-                  <h4>AIML 3</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                  <a
-                    href="/demo.jpg"
-                    title="AIML 3"
-                    data-gallery="portfolio-gallery-branding"
-                    className="glightbox preview-link"
-                  >
-                    <i className="bi bi-zoom-in"></i>
-                  </a>
-                  <Link
-                    to="/projects/aiml"
-                    title="More Details"
-                    className="details-link"
-                  >
-                    <i className="bi bi-link-45deg"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-other">
-              <div className="portfolio-content h-100">
-                <img
-                  src="https://raw.githubusercontent.com/samarjitsahoo/youtube-clone/main/assets/home.jpg"
-                  className="img-fluid"
-                  alt="YouTube Clone"
-                />
-                <div className="portfolio-info">
-                  <h4>YouTube Clone</h4>
-                  <p>YouTube Clone using YouTube data API v3</p>
-                  <a
-                    href="https://raw.githubusercontent.com/samarjitsahoo/youtube-clone/main/assets/home.jpg"
-                    title="YouTube Clone"
-                    data-gallery="portfolio-gallery-books"
-                    className="glightbox preview-link"
-                  >
-                    <i className="bi bi-zoom-in"></i>
-                  </a>
-                  <Link
-                    to="/projects/api"
-                    title="More Details"
-                    className="details-link"
-                  >
-                    <i className="bi bi-link-45deg"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-other">
-              <div className="portfolio-content h-100">
-                <img
-                  src="https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/home.png"
-                  className="img-fluid"
-                  alt="ChatGPT Clone"
-                />
-                <div className="portfolio-info">
-                  <h4>ChatGPT Clone</h4>
-                  <p>ChatGPT Clone using Gemini 1.5 Pro API</p>
-                  <a
-                    href="https://raw.githubusercontent.com/samarjitsahoo/chatgpt-clone/main/assets/home.png"
-                    title="ChatGPT Clone"
-                    data-gallery="portfolio-gallery-books"
-                    className="glightbox preview-link"
-                  >
-                    <i className="bi bi-zoom-in"></i>
-                  </a>
-                  <Link
-                    to="/projects/api"
-                    title="More Details"
-                    className="details-link"
-                  >
-                    <i className="bi bi-link-45deg"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-other">
-              <div className="portfolio-content h-100">
-                <img
-                  src="https://raw.githubusercontent.com/samarjitsahoo/crypto-tracker/main/assets/home.png"
-                  className="img-fluid"
-                  alt="Crypto Tracker"
-                />
-                <div className="portfolio-info">
-                  <h4>Crypto Tracker</h4>
-                  <p>Cryptocurrency Tracker using CoinGecko API</p>
-                  <a
-                    href="https://raw.githubusercontent.com/samarjitsahoo/crypto-tracker/main/assets/home.png"
-                    title="Crypto Tracker"
-                    data-gallery="portfolio-gallery-books"
-                    className="glightbox preview-link"
-                  >
-                    <i className="bi bi-zoom-in"></i>
-                  </a>
-                  <Link
-                    to="/projects/api"
+                    to="/projects"
                     title="More Details"
                     className="details-link"
                   >

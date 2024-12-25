@@ -59,13 +59,15 @@ const Resume = () => {
       <div className="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
         <a
-          href="Resume.docx"
+          href="https://drive.google.com/uc?id=1D3qRmxsVeih2Ht6voj7IXV5kkd4Rch1p&export=download"
           className="icon resume"
           target="_blank"
+          download="Resume"
           aria-label="Download Resume"
         >
           <i className="bi bi-download"></i>
         </a>
+
         <p className="justify">
           I am an enthusiastic and dedicated IT graduate with a solid foundation
           in programming and software development. I am eager to leverage my

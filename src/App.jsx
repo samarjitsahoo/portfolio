@@ -10,15 +10,13 @@ import About from "./components/About/About";
 import Tech from "./components/Tech/Tech";
 import Resume from "./components/Resume/Resume";
 import Projects from "./components/Projects/Projects";
-import ProjectWeb from "./components/ProjectDetails/ProjectWeb";
-import ProjectAIML from "./components/ProjectDetails/ProjectAIML";
-import ProjectAPI from "./components/ProjectDetails/ProjectAPI";
-import ProjectOther from "./components/ProjectDetails/ProjectOther";
+import ProjectDetails from "./components/Projects/ProjectDetails";
 import Certifications from "./components/Certifications/Certifications";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Chatbot from "./components/Chatbot/Chatbot";
+import Error from "./components/Error/Error";
 
 function App() {
   return (
@@ -44,10 +42,8 @@ function App() {
                 </>
               }
             />
-            <Route path="/projects/trend" element={<ProjectOther />} />
-            <Route path="/projects/web" element={<ProjectWeb />} />
-            <Route path="/projects/aiml" element={<ProjectAIML />} />
-            <Route path="/projects/api" element={<ProjectAPI />} />
+            <Route path="/projects" element={<ProjectDetails />} />
+            <Route path="*" element={<Error />} />
           </Routes>
         </main>
         <Footer />

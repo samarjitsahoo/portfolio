@@ -1,204 +1,209 @@
 .mobile-nav-toggle {
-    display: none;
+  display: none;
 }
 
 .navmenu {
-    padding: 0;
-    z-index: 9997;
+  padding: 0;
+  z-index: 9997;
 
-    ul {
-        list-style: none;
-        padding: 0 0 20px 0;
-        margin: 0;
+  ul {
+    list-style: none;
+    padding: 0 0 20px 0;
+    margin: 0;
+  }
+
+  a,
+  a:focus {
+    color: var(--nav-color);
+    padding: 15px 10px;
+    font-family: var(--nav-font);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    transition: 0.3s;
+    width: 100%;
+
+    .navicon,
+    &:focus .navicon {
+      font-size: 20px;
+      margin-right: 10px;
     }
+
+    .toggle-dropdown,
+    &:focus .toggle-dropdown {
+      font-size: 12px;
+      line-height: 0;
+      margin-left: auto;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: 0.3s;
+      flex-shrink: 0;
+      background-color: color-mix(
+        in srgb,
+        var(--accent-color),
+        transparent 90%
+      );
+
+      &:hover {
+        background-color: var(--accent-color);
+        color: var(--contrast-color);
+      }
+    }
+  }
+
+  a:hover,
+  .active,
+  .active:focus {
+    color: var(--nav-hover-color);
+
+    .navicon {
+      color: var(--accent-color);
+    }
+  }
+
+  .active .toggle-dropdown,
+  .active:focus .toggle-dropdown {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+    transform: rotate(180deg);
+  }
+
+  .dropdown {
+    display: block;
 
     a,
     a:focus {
-        color: var(--nav-color);
-        padding: 15px 10px;
-        font-family: var(--nav-font);
-        font-size: 16px;
-        font-weight: 400;
-        display: flex;
-        align-items: center;
-        white-space: nowrap;
-        transition: 0.3s;
-        width: 100%;
-
-        .navicon,
-        &:focus .navicon {
-            font-size: 20px;
-            margin-right: 10px;
-        }
-
-        .toggle-dropdown,
-        &:focus .toggle-dropdown {
-            font-size: 12px;
-            line-height: 0;
-            margin-left: auto;
-            width: 30px;
-            height: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            transition: 0.3s;
-            flex-shrink: 0;
-            background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-
-            &:hover {
-                background-color: var(--accent-color);
-                color: var(--contrast-color);
-            }
-        }
+      color: var(--nav-dropdown-color);
     }
 
     a:hover,
     .active,
     .active:focus {
-        color: var(--nav-hover-color);
-
-        .navicon {
-            color: var(--accent-color);
-        }
+      color: var(--nav-dropdown-hover-color);
     }
 
-    .active .toggle-dropdown,
-    .active:focus .toggle-dropdown {
-        background-color: var(--accent-color);
-        color: var(--contrast-color);
-        transform: rotate(180deg);
+    ul {
+      position: static;
+      display: none;
+      z-index: 99;
+      padding: 5px 10px;
+      margin: 5px 10px;
+      background-color: var(--nav-dropdown-background-color);
+      border: 1px solid
+        color-mix(in srgb, var(--default-color), transparent 90%);
+      box-shadow: none;
+      transition: all 0.5s ease-in-out;
+
+      ul {
+        background-color: rgba(33, 37, 41, 0.1);
+      }
     }
 
-    .dropdown {
-        display: block;
-
-        a,
-        a:focus {
-            color: var(--nav-dropdown-color);
-        }
-
-        a:hover,
-        .active,
-        .active:focus {
-            color: var(--nav-dropdown-hover-color);
-        }
-
-        ul {
-            position: static;
-            display: none;
-            z-index: 99;
-            padding: 5px 10px;
-            margin: 5px 10px;
-            background-color: var(--nav-dropdown-background-color);
-            border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-            box-shadow: none;
-            transition: all 0.5s ease-in-out;
-
-            ul {
-                background-color: rgba(33, 37, 41, 0.1);
-            }
-        }
-
-        > .dropdown-active {
-            display: block;
-            background-color: rgba(33, 37, 41, 0.03);
-        }
+    > .dropdown-active {
+      display: block;
+      background-color: rgba(33, 37, 41, 0.03);
     }
+  }
 }
 
 .icon {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 
-    &::after {
-        position: absolute;
-        bottom: -30px;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: #333;
-        color: #fff;
-        padding: 5px 10px;
-        border-radius: 5px;
-        white-space: nowrap;
-        opacity: 0;
-        pointer-events: none;
-        transition: opacity 0.3s ease;
-        font-size: 12px;
-    }
+  &::after {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    font-size: 12px;
+  }
 
-    &.gmail::after {
-        content: 'Send Mail';
-    }
+  &.gmail::after {
+    content: "Send Mail";
+  }
 
-    &.github::after {
-        content: 'Explore GitHub';
-    }
+  &.github::after {
+    content: "Explore GitHub";
+  }
 
-    &.linkedin::after {
-        content: 'Open LinkedIn';
-    }
+  &.linkedin::after {
+    content: "Open LinkedIn";
+  }
 
-    &:hover::after {
-        opacity: 1;
-    }
+  &:hover::after {
+    opacity: 1;
+  }
 }
 
 .theme-toggle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
 
-    .toggle-label {
-        font-size: 16px;
-        font-weight: 400;
-        margin: 0 0.5rem;
-        opacity: 0.6;
+  .toggle-label {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0.5rem;
+    opacity: 0.6;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+
+    input {
+      opacity: 0;
+      width: 0;
+      height: 0;
     }
 
-    .switch {
-        position: relative;
-        display: inline-block;
-        width: 40px;
-        height: 24px;
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: 0.4s;
+      border-radius: 24px;
 
-        input {
-            opacity: 0;
-            width: 0;
-            height: 0;
-        }
-
-        .slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: #ccc;
-            transition: 0.4s;
-            border-radius: 24px;
-
-            &:before {
-                position: absolute;
-                content: "";
-                height: 20px;
-                width: 20px;
-                left: 2px;
-                bottom: 2px;
-                background-color: white;
-                transition: 0.4s;
-                border-radius: 50%;
-            }
-        }
-
-        input:checked + .slider {
-            background-color: #2196f3;
-
-            &:before {
-                transform: translateX(16px);
-            }
-        }
+      &:before {
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 20px;
+        left: 2px;
+        bottom: 2px;
+        background-color: white;
+        transition: 0.4s;
+        border-radius: 50%;
+      }
     }
+
+    input:checked + .slider {
+      background-color: #2196f3;
+
+      &:before {
+        transform: translateX(16px);
+      }
+    }
+  }
 }

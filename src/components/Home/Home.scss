@@ -1,74 +1,74 @@
 .hero {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    position: absolute;
+    inset: 0;
+    display: block;
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  &:before {
+    content: "";
+    background: color-mix(in srgb, var(--background-color), transparent 70%);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+  }
+
+  .container {
     position: relative;
-    padding: 80px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    z-index: 3;
+  }
 
-    img {
-        position: absolute;
-        inset: 0;
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: 1;
+  h2 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+  }
+
+  p {
+    margin: 5px 0 0 0;
+    font-size: 26px;
+
+    span {
+      letter-spacing: 1px;
     }
+  }
 
-    &:before {
-        content: "";
-        background: color-mix(in srgb, var(--background-color), transparent 70%);
-        position: absolute;
-        inset: 0;
-        z-index: 2;
+  .social-links {
+    margin-top: 25px;
+
+    a {
+      font-size: 24px;
+      display: inline-block;
+      color: color-mix(in srgb, var(--default-color), transparent 50%);
+      line-height: 1;
+      margin-right: 20px;
+      transition: 0.3s;
+
+      &:hover {
+        color: var(--accent-color);
+      }
     }
+  }
 
-    .container {
-        position: relative;
-        z-index: 3;
-    }
-
+  @media (max-width: 768px) {
     h2 {
-        margin: 0;
-        font-size: 64px;
-        font-weight: 700;
+      font-size: 32px;
     }
 
     p {
-        margin: 5px 0 0 0;
-        font-size: 26px;
-
-        span {
-            letter-spacing: 1px;
-        }
+      font-size: 20px;
     }
-
-    .social-links {
-        margin-top: 25px;
-
-        a {
-            font-size: 24px;
-            display: inline-block;
-            color: color-mix(in srgb, var(--default-color), transparent 50%);
-            line-height: 1;
-            margin-right: 20px;
-            transition: 0.3s;
-
-            &:hover {
-                color: var(--accent-color);
-            }
-        }
-    }
-
-    @media (max-width: 768px) {
-        h2 {
-            font-size: 32px;
-        }
-
-        p {
-            font-size: 20px;
-        }
-    }
+  }
 }

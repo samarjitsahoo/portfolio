@@ -15,6 +15,7 @@ const testimonialsData = [
     image: "https://avatars.githubusercontent.com/u/129244274?v=4",
     name: "Soumya Khuntia",
     position: "Python Developer",
+    country: "India",
   },
   {
     quote:
@@ -22,6 +23,7 @@ const testimonialsData = [
     image: "https://avatars.githubusercontent.com/u/144861807?v=4",
     name: "Jagannath Ojha",
     position: "Web Developer",
+    country: "India",
   },
   {
     quote:
@@ -29,6 +31,7 @@ const testimonialsData = [
     image: "https://avatars.githubusercontent.com/u/111912787?v=4",
     name: "Soumya Satapathy",
     position: "UI/UX Designer",
+    country: "India",
   },
   {
     quote:
@@ -36,6 +39,7 @@ const testimonialsData = [
     image: "https://avatars.githubusercontent.com/u/147426315?v=4",
     name: "Mohammed Shizan",
     position: "Web Developer",
+    country: "India",
   },
   {
     quote:
@@ -43,6 +47,7 @@ const testimonialsData = [
     image: "https://avatars.githubusercontent.com/u/179226225?v=4",
     name: "Shaik Ahesanuddin",
     position: "C++ Developer",
+    country: "India",
   },
 ];
 
@@ -93,6 +98,7 @@ const Testimonials = () => {
                 />
                 <h3>{testimonial.name}</h3>
                 <h4>{testimonial.position}</h4>
+                <h4>{testimonial.country}</h4>
               </div>
             </SwiperSlide>
           ))}

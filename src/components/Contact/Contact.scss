@@ -1,105 +1,104 @@
 .contact {
-    .info-wrap {
-        background-color: var(--surface-color);
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-        padding: 30px;
+  .info-wrap {
+    background-color: var(--surface-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
 
-        @media (max-width: 575px) {
-            padding: 20px;
-        }
+    @media (max-width: 575px) {
+      padding: 20px;
+    }
+  }
+
+  .info-item {
+    margin-bottom: 40px;
+
+    i {
+      font-size: 20px;
+      color: var(--accent-color);
+      background: color-mix(in srgb, var(--accent-color), transparent 92%);
+      width: 44px;
+      height: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      transition: all 0.3s ease-in-out;
+      margin-right: 15px;
+
+      &:hover {
+        background: var(--accent-color);
+        color: var(--contrast-color);
+      }
     }
 
-    .info-item {
-        margin-bottom: 40px;
-
-        i {
-            font-size: 20px;
-            color: var(--accent-color);
-            background: color-mix(in srgb, var(--accent-color), transparent 92%);
-            width: 44px;
-            height: 44px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50px;
-            transition: all 0.3s ease-in-out;
-            margin-right: 15px;
-
-            // Hover effect for icon
-            &:hover {
-                background: var(--accent-color);
-                color: var(--contrast-color);
-            }
-        }
-
-        h3 {
-            padding: 0;
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 5px;
-        }
-
-        p {
-            padding: 0;
-            margin-bottom: 0;
-            font-size: 14px;
-        }
+    h3 {
+      padding: 0;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 5px;
     }
 
-    .php-email-form {
-        background-color: var(--surface-color);
-        height: 100%;
-        padding: 30px;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    p {
+      padding: 0;
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+  }
 
-        @media (max-width: 575px) {
-            padding: 20px;
-        }
+  .php-email-form {
+    background-color: var(--surface-color);
+    height: 100%;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 
-        input[type="text"],
-        input[type="email"],
-        textarea {
-            font-size: 14px;
-            padding: 10px 15px;
-            box-shadow: none;
-            border-radius: 0;
-            color: var(--default-color);
-            background-color: var(--surface-color);
-            border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-
-            &:focus {
-                border-color: var(--accent-color);
-            }
-
-            &::placeholder {
-                color: color-mix(in srgb, var(--default-color), transparent 70%);
-            }
-        }
-
-        button[type="submit"] {
-            color: var(--contrast-color);
-            background: var(--accent-color);
-            border: 0;
-            padding: 10px 30px;
-            transition: 0.4s;
-            border-radius: 50px;
-
-            &:hover {
-                background: color-mix(in srgb, var(--accent-color), transparent 25%);
-            }
-        }
+    @media (max-width: 575px) {
+      padding: 20px;
     }
 
-    .map-iframe {
-        border: 0;
-        width: 100%;
-        height: 270px;
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      font-size: 14px;
+      padding: 10px 15px;
+      box-shadow: none;
+      border-radius: 0;
+      color: var(--default-color);
+      background-color: var(--surface-color);
+      border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+
+      &:focus {
+        border-color: var(--accent-color);
+      }
+
+      &::placeholder {
+        color: color-mix(in srgb, var(--default-color), transparent 70%);
+      }
     }
 
-    .captcha-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
+    button[type="submit"] {
+      color: var(--contrast-color);
+      background: var(--accent-color);
+      border: 0;
+      padding: 10px 30px;
+      transition: 0.4s;
+      border-radius: 50px;
+
+      &:hover {
+        background: color-mix(in srgb, var(--accent-color), transparent 25%);
+      }
     }
+  }
+
+  .map-iframe {
+    border: 0;
+    width: 100%;
+    height: 270px;
+  }
+
+  .captcha-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
 }

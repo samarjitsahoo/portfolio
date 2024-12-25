@@ -1,103 +1,103 @@
 .skills {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 .container-img {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 .skills-img {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid black;
-    background-color: transparent;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: transparent;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  position: relative;
 
-    img {
-        width: 80%;
-        height: auto;
-        display: block;
-        margin: 10px;
-    }
+  img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 10px;
+  }
 
-    &:hover {
-        transform: scale(1.1);
-        opacity: 0.8;
-    }
+  &:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
 
-    &::after {
-        content: attr(data-tooltip);
-        position: absolute;
-        bottom: -10px;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: #333;
-        color: #fff;
-        padding: 5px 10px;
-        border-radius: 5px;
-        white-space: nowrap;
-        opacity: 0;
-        pointer-events: none;
-        transition: opacity 0.3s ease;
-        font-size: 12px;
-    }
+  &::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    font-size: 12px;
+  }
 
-    &:hover::after {
-        opacity: 1;
-    }
+  &:hover::after {
+    opacity: 1;
+  }
 }
 
 #tech1::after {
-    content: 'C';
+  content: "C";
 }
 
 #tech2::after {
-    content: 'C++';
+  content: "C++";
 }
 
 #tech3::after {
-    content: 'Java';
+  content: "Java";
 }
 
 #tech4::after {
-    content: 'Python';
+  content: "Python";
 }
 
 #tech5::after {
-    content: 'HTML';
+  content: "HTML";
 }
 
 #tech6::after {
-    content: 'CSS';
+  content: "CSS";
 }
 
 #tech7::after {
-    content: 'JavaScript';
+  content: "JavaScript";
 }
 
 #tech8::after {
-    content: 'Tailwind';
+  content: "Tailwind";
 }
 
 #tech9::after {
-    content: 'SCSS';
+  content: "SCSS";
 }
 
 #tech10::after {
-    content: 'React';
+  content: "React";
 }
 
 #tech11::after {
-    content: 'NodeJS';
+  content: "NodeJS";
 }
 
 #tech12::after {
-    content: 'MongoDB';
+  content: "MongoDB";
 }

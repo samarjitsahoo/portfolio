@@ -96,26 +96,26 @@ function Certifications() {
           data-aos-delay="200"
         >
           <CertificationItem
-            imageSrc="/certificates/google.jpg"
+            imageSrc="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121169/google_fuyhtm.jpg"
             title="Crash Course on Python"
             description="Authorized by Google"
-            lightboxLink="/certificates/google.jpg"
+            lightboxLink="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121169/google_fuyhtm.jpg"
             detailsLink="https://www.coursera.org/account/accomplishments/verify/PJE8PLWF3STL"
             ariaLabel="View details for Crash Course on Python certification"
           />
           <CertificationItem
-            imageSrc="/certificates/ibm.jpg"
+            imageSrc="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121167/ibm_ix78aw.jpg"
             title="Machine Learning with Python"
             description="Authorized by IBM"
-            lightboxLink="/certificates/ibm.jpg"
+            lightboxLink="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121167/ibm_ix78aw.jpg"
             detailsLink="https://www.coursera.org/account/accomplishments/verify/7DGGQEBMTJXC"
             ariaLabel="View details for Machine Learning with Python certification"
           />
           <CertificationItem
-            imageSrc="/certificates/meta.jpg"
+            imageSrc="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121166/meta_jpsxhv.jpg"
             title="The Full Stack"
             description="Authorized by Meta"
-            lightboxLink="/certificates/meta.jpg"
+            lightboxLink="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121166/meta_jpsxhv.jpg"
             detailsLink="https://www.coursera.org/account/accomplishments/verify/QRS8YH2ARCSN"
             ariaLabel="View details for Full Stack certification"
           />
