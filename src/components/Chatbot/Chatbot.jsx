@@ -3,8 +3,8 @@ import { useEffect } from "react";
 const Chatbot = () => {
   useEffect(() => {
     const scriptSources = [
-      "https://cdn.botpress.cloud/webchat/v2.1/inject.js",
-      "https://mediafiles.botpress.cloud/16756fe9-836d-4dac-bdc7-1e59c45755ef/webchat/v2.1/config.js",
+      "https://cdn.botpress.cloud/webchat/v2.2/inject.js",
+      "https://files.bpcontent.cloud/2024/12/29/12/20241229121842-B1MNBW2I.js",    
     ];
     const loadScripts = (sources) => {
       return sources.map((src) => {
