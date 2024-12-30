@@ -14,7 +14,7 @@ const testimonialsData = [
     "Samarjit\u2019s expertise and problem-solving skills were instrumental in our project\u2019s success. His dedication and ability to quickly adapt to new challenges made working with him a seamless experience. Highly recommended for anyone seeking a committed and skilled developer.",
     image: "https://avatars.githubusercontent.com/u/74724579?v=4",
     name: "Shaikh Yakub Hossain",
-    position: "Web Developer",
+    position: "Game Developer",
     country: "India",
   },
   {
@@ -22,7 +22,7 @@ const testimonialsData = [
     "Samarjit\u2019s creativity and technical expertise significantly enhanced our project. His ability to tackle complex problems and deliver results on time was impressive. Working with him was a fantastic experience, and his contributions were invaluable.",
     image: "https://avatars.githubusercontent.com/u/129244274?v=4",
     name: "Soumya Khuntia",
-    position: "Python Developer",
+    position: "AI/ML Developer",
     country: "India",
   },
   {
@@ -30,7 +30,7 @@ const testimonialsData = [
       "Samarjit consistently delivered high-quality work and demonstrated exceptional technical skills throughout our collaboration. His proactive approach and attention to detail greatly contributed to the project\u2019s success. A true professional who is a pleasure to work with.",
     image: "https://avatars.githubusercontent.com/u/144861807?v=4",
     name: "Jagannath Ojha",
-    position: "Web Developer",
+    position: "Website Developer",
     country: "India",
   },
   {
@@ -46,7 +46,7 @@ const testimonialsData = [
       "Samarjit\u2019s commitment and technical knowledge were crucial in achieving our project goals. His innovative solutions and willingness to go the extra mile made a noticeable impact. I highly value his work ethic and problem-solving abilities.",
     image: "https://avatars.githubusercontent.com/u/147426315?v=4",
     name: "Mohammed Shizan",
-    position: "Web Developer",
+    position: "Website Developer",
     country: "India",
   },
 ];
