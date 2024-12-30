@@ -11,7 +11,15 @@ SwiperCore.use([Autoplay, Pagination]);
 const testimonialsData = [
   {
     quote:
-      "Samarjit\u2019s expertise and problem-solving skills were instrumental in our project\u2019s success. His dedication and ability to quickly adapt to new challenges made working with him a seamless experience. Highly recommended for anyone seeking a committed and skilled developer.",
+    "Samarjit\u2019s expertise and problem-solving skills were instrumental in our project\u2019s success. His dedication and ability to quickly adapt to new challenges made working with him a seamless experience. Highly recommended for anyone seeking a committed and skilled developer.",
+    image: "https://avatars.githubusercontent.com/u/74724579?v=4",
+    name: "Shaikh Yakub Hossain",
+    position: "Web Developer",
+    country: "India",
+  },
+  {
+    quote:
+    "Samarjit\u2019s creativity and technical expertise significantly enhanced our project. His ability to tackle complex problems and deliver results on time was impressive. Working with him was a fantastic experience, and his contributions were invaluable.",
     image: "https://avatars.githubusercontent.com/u/129244274?v=4",
     name: "Soumya Khuntia",
     position: "Python Developer",
@@ -39,14 +47,6 @@ const testimonialsData = [
     image: "https://avatars.githubusercontent.com/u/147426315?v=4",
     name: "Mohammed Shizan",
     position: "Web Developer",
-    country: "India",
-  },
-  {
-    quote:
-      "Samarjit\u2019s creativity and technical expertise significantly enhanced our project. His ability to tackle complex problems and deliver results on time was impressive. Working with him was a fantastic experience, and his contributions were invaluable.",
-    image: "https://avatars.githubusercontent.com/u/179226225?v=4",
-    name: "Shaik Ahesanuddin",
-    position: "C++ Developer",
     country: "India",
   },
 ];
