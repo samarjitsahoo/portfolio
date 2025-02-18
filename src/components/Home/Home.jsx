@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div id="home" className="hero section dark-background">
       <img
-        src="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121311/home_fxyalj.jpg"
+        src="https://res.cloudinary.com/dry07iyvo/image/upload/v1739868365/home_ctmqie.jpg"
         alt="Background"
         aria-hidden="true"
         data-aos="fade-in"
