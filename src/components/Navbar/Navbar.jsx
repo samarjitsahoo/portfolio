@@ -68,7 +68,7 @@ const Navbar = () => {
       ></i>
       <div className="profile-img">
         <img
-          src="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121310/me_ebrfho.jpg"
+          src="https://res.cloudinary.com/dry07iyvo/image/upload/v1739867730/samarjit_afqdni.png"
           alt="Profile"
           className="img-fluid rounded-circle"
         />
