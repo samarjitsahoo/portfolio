@@ -1,6 +1,6 @@
 # Portfolio Website
 <div align="center">
-<img src="https://res.cloudinary.com/dry07iyvo/image/upload/v1735121310/me_ebrfho.jpg" alt="" width="150" height="auto"/>
+<img src="https://avatars.githubusercontent.com/u/145245473?v=4" alt="" width="150" height="auto"/>
 </div>
 <p align="justify">Welcome to my Developer Portfolio Website repository! This project showcases my skills, projects, and experience as a web developer, providing a platform to highlight my work and technical expertise. Designed to be both engaging and informative, the portfolio includes detailed sections for my latest projects, technical skills, and professional background. Visitors can explore live demos, view code repositories, and gain insight into my development process and problem-solving approach. This portfolio serves as a gateway for potential clients, collaborators, and employers to get to know my work and capabilities in web development. I invite you to explore my portfolio to see how I bring ideas to life through code!</p>
 <h2 align="left">Tech Stack</h2>
