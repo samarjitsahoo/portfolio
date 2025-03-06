@@ -69,11 +69,12 @@ const Contact = () => {
               </div>
               <iframe
                 title="Samarjit's Point"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3383.131950480761!2d85.89362177469908!3d20.445366507561335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190d00456899c7%3A0xcc404721002eb374!2sSamarjit%27s%20Point!5e1!3m2!1sen!2sin!4v1724237787397!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3383.1335970158!2d85.89356167469906!3d20.445291707563758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190d0049c3a72d%3A0xf3f4cf5e4098a38f!2sSamarjit&#39;s%20Point!5e1!3m2!1sen!2sin!4v1741251589560!5m2!1sen!2sin"
                 className="map-iframe"
                 allowFullScreen
                 loading="lazy"
               ></iframe>
+              
             </div>
           </div>
           <div className="col-lg-7">
